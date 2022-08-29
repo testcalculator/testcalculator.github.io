@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--Doctype informa ao agente de usuário a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Informa qual tipo de codificação está utilizando-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Pedro">
+    <!--Informa no mecanismo de busco o autor-->
+    <meta name="description" content="Testando calculadora">
+    <!--Descreve assim que for pesquisado-->
+    <meta name="keywords" content="js,css,html5">
+    <!--Palavras chaves a serem encontradas-->
+    <title>TesteCalculadora</title>
+    <!--Para linkar o que está sendo feio no css-->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+    <div class="calculo">
+        <h1>ﾠCalculadora</h1>
+        <form action="" name="Calculadora">
+            <!--Apareça o resultado da conta-->
+            <input type="text" class="texto" name="texto1" disabled>
+            <!--Faz com que ao se apertar reinicie a conta-->
+            <input type="text" class="texto1" name="Texto12" value="C" onclick="location.reload()">
+
+            <br>
+
+            <input type="button" class="numero" name="botao9" value="9" onclick="displaynum(botao9.value)">
+            <input type="button" class="numero" name="botao8" value="8" onclick="displaynum(botao8.value)">
+            <input type="button" class="numero" name="botao7" value="7" onclick="displaynum(botao7.value)">
+            <input type="button" class="add" name="adicionar" value="+" onclick="displaynum(adicionar.value)">
+
+            <br>
+             
+            <input type="button" class="numero" name="botao6" value="6" onclick="displaynum(botao6.value)">
+            <input type="button" class="numero" name="botao5" value="5" onclick="displaynum(botao5.value)">
+            <input type="button" class="numero" name="botao4" value="4" onclick="displaynum(botao4.value)">
+            <input type="button" class="sub" name="subtrair" value="-" onclick="displaynum(subtrair.value)">
+
+            <br>
+
+            <input type="button" class="numero" name="botao3" value="3" onclick="displaynum(botao3.value)">
+            <input type="button" class="numero" name="botao2" value="2" onclick="displaynum(botao2.value)">
+            <input type="button" class="numero" name="botao1" value="1" onclick="displaynum(botao1.value)">
+            <input type="button" class="mult" name="multiplicar" value="*" onclick="displaynum(multiplicar.value)">
+
+            <br>
+
+            <input type="button" class="numero" name="ponto" value="." onclick="displaynum(ponto.value)">
+            <input type="button" class="numero" name="botao0" value="0" onclick="displaynum(botao0.value)">
+            <input type="button" class="ig" name="igual" value="=" onclick="texto1.value=eval(texto1.value)">
+            <input type="button" class="divid" name="dividir" value="/" onclick="displaynum(dividir.value)">
+
+            <br>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2? family= Silkscreen & display=swap');
+
+h1{
+    font-family:'Silkscreen', cursive ;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+body{
+    width:99%;
+    height:95vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(https://i.pinimg.com/originals/a1/b4/e0/a1b4e08a032f89e73a5c7b2cf5edd74f.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input{
+    color: black;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family:'Silkscreen', cursive ;
+    border-radius: 25%;
+}
+
+.calculo{
+display: inline-block;
+}
+
+.numero{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.num{
+    width: 64px;
+    height: 67px;
+}
+
+.texto{
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.texto1{
+width: 24px;
+height: 26px;
+border-radius: 50%;
+letter-spacing: 5px;
+text-align: center;
+margin-bottom: 12px;
+cursor: pointer;
+}
+
+.add{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.sub{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.mult{
+   background-color: darkgreen;
+   cursor: pointer;
+}
+
+.divid{
+   background-color: darkslategray;
+   cursor: pointer;
+}
+
+.ig{
+    background-color: gold;
+    cursor: pointer;
+}
